@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Projeto de Detecção de Fraudes - arquivos específicos
+# Dataset (por ser muito grande)
+data/creditcard.csv
+
+# Gráficos e imagens gerados
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Modelos treinados
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Arquivos temporários
+*.tmp
+.DS_Store
+Thumbs.db
